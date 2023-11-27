@@ -1,5 +1,10 @@
 import React from "react";
 import "./About.css";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
+
+import eliphoto from "./../../assets/images/eliphoto.png";
 
 const About = () => {
   return (
@@ -9,8 +14,21 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me-image">
-          <img src={about} className="about" alt="About"></img>
+          <img src={eliphoto} className="eliphoto" alt="About"></img>
         </div>
+      </div>
+
+      <div className="about__me-text">
+        <p>
+          I am a full stack web developer with a passion for creating beautiful,
+          responsive, and functional websites. I have a background in graphic
+          design and a passion for learning new technologies. I am a team player
+          and I am always looking for ways to improve my skills and help others.{" "}
+        </p>
+        <p>
+          I am currently working as a freelance web developer and I am looking
+          for new opportunities to work with a team of developers.{" "}
+        </p>
       </div>
 
       <div className="about__content">

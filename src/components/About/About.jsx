@@ -16,19 +16,20 @@ const About = () => {
         <div className="about__me-image">
           <img src={eliphoto} className="eliphoto" alt="About"></img>
         </div>
-      </div>
 
-      <div className="about__me-text">
-        <p>
-          I am a full stack web developer with a passion for creating beautiful,
-          responsive, and functional websites. I have a background in graphic
-          design and a passion for learning new technologies. I am a team player
-          and I am always looking for ways to improve my skills and help others.{" "}
-        </p>
-        <p>
-          I am currently working as a freelance web developer and I am looking
-          for new opportunities to work with a team of developers.{" "}
-        </p>
+        <div className="about__me-text">
+          <p>
+            I am a full stack web developer with a passion for creating
+            beautiful, responsive, and functional websites. I have a background
+            in graphic design and a passion for learning new technologies. I am
+            a team player and I am always looking for ways to improve my skills
+            and help others.{" "}
+          </p>
+          <p>
+            I am currently working as a freelance web developer and I am looking
+            for new opportunities to work with a team of developers.{" "}
+          </p>
+        </div>
       </div>
 
       <div className="about__content">

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import About from "./components/About/About";
 import "./App.css";
 
 function App() {
@@ -7,11 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>My Portfolio App</h1>
-        <p>Count: {count}</p>
-        <button onClick={() => setCount(count + 1)}>Increment</button>
-      </div>
+      <About />
     </>
   );
 }

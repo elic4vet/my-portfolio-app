@@ -4,25 +4,15 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-import eliphoto from "./../../assets/images/eliphoto.png";
-
 const About = () => {
   return (
     <section id="about">
       <div className="container about__container">
-        <div className="about__me-image">
-          <img src={eliphoto} className="eliphoto" alt="About"></img>
-        </div>
-        <div className="about__me-heading"> 
-        <div className="h1"> 
-        Hi👋 I'm Elisabeth a Frontend Developer based in Germany.
-        </div>
-        </div>
-        </div>
-
+        <div className="about__section-title">
+          <h2>About me</h2>
+          <span className="section-title-divider"></span>
 
         <div className="about__me-text"> 
-        <div className="h2">About Me</div>
           <p className="text">
             I am a full stack web developer with a passion for creating
             beautiful, responsive, and functional websites. I have a background
@@ -61,6 +51,8 @@ const About = () => {
         <a href="#contact" className="btn btn-primary">
           Let's talk
         </a>
+      </div>
+      </div>
       </div>
     </section>
   );

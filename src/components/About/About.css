@@ -35,9 +35,9 @@
 .about__card:hover {
   background: transparent;
   background: var(--stroke);
-  color: var(--color-txt);
-  cursor: default;
+  color: var(--card-tag-txt);
   transition: var(--transition);
+  cursor: default;
 }
 
 .about__icon {

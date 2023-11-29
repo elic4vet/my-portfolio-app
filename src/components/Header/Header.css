@@ -1,0 +1,22 @@
+/* Add missing opening brace */
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  padding: 0 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.image__container {
+  background-color: transparent;
+  padding-left: 180px;
+}
+
+.header__text h1 {
+  font-size: 2.5rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+  margin-left: -80px;
+}

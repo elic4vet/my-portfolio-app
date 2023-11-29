@@ -1,7 +1,8 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 1fr;
+  gap: 0;
+  padding: 0 1.5rem;
   color: var(--card-tag-txt);
 }
 
@@ -26,6 +27,7 @@
 .about__card {
   background: var(--card-bg);
   border: 1px solid var(--card-button);
+  color: var(--color-txt);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
@@ -57,6 +59,7 @@
   font-size: 2rem 0 2.6rem;
 }
 
+ 
 /* ======= Media Queries "M" Devices ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

@@ -3,6 +3,8 @@ import "./About.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faSquareJs, faReact, faNode, faHtml5, faCss3Alt, faBootstrap, faSquareGithub, faFigma} from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   return (
@@ -151,7 +153,7 @@ const About = () => {
           </li>
         </ul>
               </div>
-            </div>
+            </div>  
 
           <div className="about__content">
             <div className="about__cards">

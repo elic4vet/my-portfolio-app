@@ -58,8 +58,44 @@
 .about__card p {
   font-size: 2rem 0 2.6rem;
 }
+.about__skills {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: var(--card-tag-txt);
+}
+.about__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+}
 
- 
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.tools__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.skills__box {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
 /* ======= Media Queries "M" Devices ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

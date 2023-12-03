@@ -96,6 +96,10 @@
   margin-top: 2rem;
 }
 
+.icon {
+  font-size: 4rem;
+  display: block;
+}
 /* ======= Media Queries "M" Devices ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

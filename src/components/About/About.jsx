@@ -35,6 +35,16 @@ const About = () => {
               I am currently working as a freelance web developer and I am
               looking for new opportunities to work with a team of developers.{" "}
             </p>
+            <div className="CTA">
+              {" "}
+              <a
+                href="https://docs.google.com/document/d/1FFE2gL9lI_woI-FL1Z3Jtqzj9Eav8GmFjrgFJoFl8-M/edit?usp=sharing"
+                target="_blank"
+              >
+                {" "}
+                Download my resume here:
+              </a>
+            </div>
           </div>
 
           <div className="about__skills">

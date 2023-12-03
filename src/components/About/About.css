@@ -69,6 +69,8 @@
   line-height: 1.5;
   margin-bottom: 1.5rem;
   color: var(--card-tag-txt);
+  border: 1px solid var(--card-button);
+  border-radius: 1rem;
 }
 .about__content {
   display: flex;
@@ -94,13 +96,6 @@
   margin-top: 2rem;
 }
 
-.skills__box {
-  display: grid;
-  grid-template-columns: repeat(1fr, 1fr);
-  justify-content: center;
-  align-items: center;
-  margin: 0 1rem;
-}
 /* ======= Media Queries "M" Devices ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

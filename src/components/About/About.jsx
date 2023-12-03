@@ -40,59 +40,56 @@ const About = () => {
           <div className="about__skills">
             <h3>Skills</h3>
             <div className="skills__container">
-              <div className="skills__box">
-                <p className="title1"> My tech Stack 👩🏻‍💻</p>
-                <ul className="tech-stack">
-                  <li>
-                    {" "}
-                    JavaScript{" "}
-                    <FontAwesomeIcon
-                      icon={faSquareJs}
-                      className="javascript  rotate-vert-center"
-                    />
-                  </li>
-                  <li>
-                    React{" "}
-                    <FontAwesomeIcon
-                      icon={faReact}
-                      className="react rotate-vert-center"
-                    />
-                  </li>
-                  <li>
-                    Node.js{" "}
-                    <FontAwesomeIcon
-                      icon={faNode}
-                      className="node rotate-vert-center"
-                    />
-                  </li>
-                  <li>
-                    HTML5{" "}
-                    <FontAwesomeIcon
-                      icon={faHtml5}
-                      className="html rotate-vert-center"
-                    />
-                  </li>
-                  <li>
-                    CSS3{" "}
-                    <FontAwesomeIcon
-                      icon={faCss3Alt}
-                      className="css rotate-vert-center"
-                    />{" "}
-                  </li>
-                  <li>
-                    Bootstrap
-                    <FontAwesomeIcon
-                      icon={faBootstrap}
-                      className="bootstrap rotate-vert-center"
-                    />
-                  </li>
-                </ul>
-              </div>
+              <p className="title1"> My tech Stack 👩🏻‍💻</p>
+              <ul className="tech-stack">
+                <li>
+                  {" "}
+                  JavaScript{" "}
+                  <FontAwesomeIcon
+                    icon={faSquareJs}
+                    className="javascript  rotate-vert-center"
+                  />
+                </li>
+                <li>
+                  React{" "}
+                  <FontAwesomeIcon
+                    icon={faReact}
+                    className="react rotate-vert-center"
+                  />
+                </li>
+                <li>
+                  Node.js{" "}
+                  <FontAwesomeIcon
+                    icon={faNode}
+                    className="node rotate-vert-center"
+                  />
+                </li>
+                <li>
+                  HTML5{" "}
+                  <FontAwesomeIcon
+                    icon={faHtml5}
+                    className="html rotate-vert-center"
+                  />
+                </li>
+                <li>
+                  CSS3{" "}
+                  <FontAwesomeIcon
+                    icon={faCss3Alt}
+                    className="css rotate-vert-center"
+                  />{" "}
+                </li>
+                <li>
+                  Bootstrap
+                  <FontAwesomeIcon
+                    icon={faBootstrap}
+                    className="bootstrap rotate-vert-center"
+                  />
+                </li>
+              </ul>
             </div>
 
             <div className="tools__container">
-              <h3>My tools </h3>
-              <p className="title2"> My tools 🛠️ </p>
+              <h3>My tools 🛠️ </h3>
               <ul className="tools">
                 <li>
                   Github{" "}

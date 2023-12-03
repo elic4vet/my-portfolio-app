@@ -38,9 +38,8 @@ const About = () => {
           </div>
 
           <div className="about__skills">
-            <h3>Skills</h3>
             <div className="skills__container">
-              <p className="title1"> My tech Stack 👩🏻‍💻</p>
+              <h3>Skills 👩🏻‍💻 </h3>
               <ul className="tech-stack">
                 <li>
                   {" "}

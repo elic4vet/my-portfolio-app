@@ -58,32 +58,37 @@
 .about__card p {
   font-size: 2rem 0 2.6rem;
 }
-.about__container {
+.about__skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   color: var(--card-tag-txt);
 }
 .about__content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   align-items: center;
 }
 
 .skills__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .tools__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;

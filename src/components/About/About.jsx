@@ -4,6 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 import {
   faSquareJs,
   faReact,
@@ -35,14 +36,15 @@ const About = () => {
               I am currently working as a freelance web developer and I am
               looking for new opportunities to work with a team of developers.{" "}
             </p>
+            <br />
             <div className="CTA">
               {" "}
+              Download my resume here
               <a
                 href="https://docs.google.com/document/d/1FFE2gL9lI_woI-FL1Z3Jtqzj9Eav8GmFjrgFJoFl8-M/edit?usp=sharing"
                 target="_blank"
               >
-                {" "}
-                Download my resume here:
+                <FaCloudDownloadAlt className="icon" />
               </a>
             </div>
           </div>

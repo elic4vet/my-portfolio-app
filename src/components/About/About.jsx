@@ -88,7 +88,7 @@ const About = () => {
             </div>
 
             <div className="tools__container">
-              <h3>My tools 🛠️ </h3>
+              <h3>Tools 🛠️ </h3>
               <ul className="tools">
                 <li>
                   Github{" "}
@@ -160,6 +160,18 @@ const About = () => {
                     className="figma rotate-vert-center"
                   />
                 </li>
+              </ul>
+            </div>
+
+            <div className="services__container">
+              <h3>Services 💼 </h3>
+              <ul className="services">
+                <li>Web Design</li>
+                <li>Web Development</li>
+                <li>Responsive Design</li>
+                <li>Mobile Friendly</li>
+                <li>SEO</li>
+                <li>Web Maintenance</li>
               </ul>
             </div>
           </div>

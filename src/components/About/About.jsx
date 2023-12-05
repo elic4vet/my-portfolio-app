@@ -47,6 +47,9 @@ const About = () => {
                 <FaCloudDownloadAlt className="icon" />
               </a>
             </div>
+            <a href="#contact" className="btn btn-primary">
+              Let's talk
+            </a>
           </div>
 
           <div className="about__skills">
@@ -209,9 +212,6 @@ const About = () => {
               </article>
             </div>{" "}
             <br />
-            <a href="#contact" className="btn btn-primary">
-              Let's talk
-            </a>
           </div>
         </div>
       </div>

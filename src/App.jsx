@@ -4,17 +4,15 @@ import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";
 import "./App.css";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
       <About />
+      <Portfolio />
       <Contact />
-      <h1>Count: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
       <Snowfall
         style={{
           position: "fixed",

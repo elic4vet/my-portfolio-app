@@ -22,16 +22,46 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="card card2">
-          <img src="..." className="card-img-top" alt="..." />
-          <h5 className="card-title">Project 2</h5>
-          <p className="card-text">Description</p>
-          <a href="#" className="btn btn-primary">
-            Live preview
-          </a>
-          <a href="#" className="btn btn-primary">
-            View Code
-          </a>
+        <div className="col-md-6">
+          <div className="card card2">
+            <img src="..." className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <div className="card card3">
+            <img src="..." className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <div className="card card4">
+            <img src="..." className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
         </div>
       </div>
     </div>

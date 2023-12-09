@@ -6,8 +6,13 @@ const Contact = () => {
       <h1>Contact</h1>
       <p>Phone: 555-555-5555</p>
       <p>
-        Email:
-        <a href="mailto:" target="_blank" rel="noopener noreferrer" />
+        Email:{" "}
+        <a
+          href="mailto:elisabeth.erkekoglou@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+        elisabeth.erkekoglou@gmail.com
       </p>
     </div>
   );

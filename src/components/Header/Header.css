@@ -20,3 +20,19 @@
   margin-top: 2rem;
   margin-left: -80px;
 }
+
+@media screen and (max-width: 600px) {
+  .header__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .image__container {
+    padding-left: 0;
+  }
+
+  .header__text h1 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+}

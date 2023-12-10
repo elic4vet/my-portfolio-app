@@ -49,8 +49,14 @@ const Sidebar = () => {
               </li>
 
               <li>
-                <a href="">
-                  <i class="fa fa-github"></i>
+                <a href="https://github.com/elic4vet">
+                  <i class="fa fa-github"></i> Github
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/eerkekoglou/">
+                  <i class="fa fa-linkedin"></i> LinkedIn
                 </a>
               </li>
             </ul>

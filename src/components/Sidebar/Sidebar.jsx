@@ -49,13 +49,16 @@ const Sidebar = () => {
               </li>
 
               <li>
-                <a href="https://github.com/elic4vet">
+                <a href="https://github.com/elic4vet" target="_blank">
                   <i class="fa fa-github"></i> Github
                 </a>
               </li>
 
               <li>
-                <a href="https://www.linkedin.com/in/eerkekoglou/">
+                <a
+                  href="https://www.linkedin.com/in/eerkekoglou/"
+                  target="_blank"
+                >
                   <i class="fa fa-linkedin"></i> LinkedIn
                 </a>
               </li>

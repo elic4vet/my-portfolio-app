@@ -27,22 +27,30 @@ const Sidebar = () => {
                   <i className="fa fa-home" /> Home
                 </a>
               </li>
+
               <li>
                 <a href="#about">
                   <i className="fa fa-edit" /> About{" "}
                 </a>
               </li>
+
               <li>
                 <a href="#portfolio">
                   {" "}
                   <i class="fa fa-briefcase"></i> Portfolio{" "}
                 </a>
               </li>
-              ,
+
               <li>
                 <a href="#contact">
                   {" "}
                   <i class="fa fa-envelope"></i> Contact{" "}
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <i class="fa fa-github"></i>
                 </a>
               </li>
             </ul>

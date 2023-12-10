@@ -3,7 +3,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="navbar">
       {/* Top Navbar */}
       <nav className="navbar top-navbar">
         {/* Navbar content */}
@@ -21,7 +21,7 @@ const Sidebar = () => {
         <div className="sidebar">
           {/* Sidebar navigation */}
           <nav id="sidebar-nav">
-            <ul className="nav nav-pills nav-stacked">
+            <ul className="nav nav-pills nav-justified">
               <li>
                 <a href="index.html">
                   <i className="fa fa-home" /> Home

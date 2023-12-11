@@ -2,7 +2,6 @@
   gap: 1.5rem;
   padding: 0 1.5rem;
   margin-top: 2rem;
-
 }
 
 .about__me-text {
@@ -28,8 +27,6 @@
   line-height: 1.5;
   margin-bottom: 1.5rem;
   color: var(--card-tag-txt);
-  border: 1px solid var(--card-button);
-  border-radius: 1rem;
 }
 
 .about__card {
@@ -80,29 +77,23 @@
   border: 1px solid var(--card-button);
   border-radius: 1rem;
 }
-.about__content {
+.skills__container,
+.skills__container ul {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.skills__container {
-  gap: 1.5rem;
   justify-content: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
 }
-
-.tools__container {
+.tools__container,
+.tools__container ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.services__container {
+.services__container,
+.services__container ul {
   display: flex;
   flex-direction: column;
   justify-content: center;

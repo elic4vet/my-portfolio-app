@@ -1,9 +1,8 @@
 .about__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
+  gap: 1.5rem;
   padding: 0 1.5rem;
-  color: var(--card-tag-txt);
+  margin-top: 2rem;
+
 }
 
 .about__me-text {
@@ -22,6 +21,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: var(--card-tag-txt);
+  border: 1px solid var(--card-button);
+  border-radius: 1rem;
 }
 
 .about__card {
@@ -86,6 +94,9 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .tools__container {

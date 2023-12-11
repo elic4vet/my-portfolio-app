@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <h1 className="title">Portfolio</h1>
-      <p className="subtitle">Here are some of my projects:</p>
+      <p className="subtitle">Here are some of my recent projects:</p>
 
       <div className="row">
         <div className="col-md-6">

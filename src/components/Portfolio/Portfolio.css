@@ -18,6 +18,24 @@
   justify-content: center;
 }
 
+.title,
+.subtitle {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--card-highlight);
+}
+
+.card__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .card {
     background-color: var(--card-highlight);

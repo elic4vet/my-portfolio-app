@@ -17,7 +17,3 @@ ul {
   color: var(--card-button);
   font-size: 1.5rem;
 }
-
-i:hover {
-  color: var(--card-button-hover);
-}

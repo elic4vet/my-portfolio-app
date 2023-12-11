@@ -4,8 +4,8 @@ import "./Portfolio.css";
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <h1>Portfolio</h1>
-      <p>Here are some of my projects:</p>
+      <h1 className="title">Portfolio</h1>
+      <p className="subtitle">Here are some of my projects:</p>
 
       <div className="row">
         <div className="col-md-6">

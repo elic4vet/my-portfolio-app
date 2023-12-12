@@ -12,10 +12,9 @@ const Header = () => {
       <div className="header__text">
         <header className="header">
           <h1 className="header__heading">
-            Hi👋 I'm Elisabeth <br/>
-            a <span> Frontend Developer</span> <br/> based in <span>Germany</span> . 
-            </h1> 
- 
+            Hi👋 I'm Elisabeth <br />a <span> Frontend Developer</span> <br />{" "}
+            based in <span>Germany</span> .
+          </h1>
         </header>
       </div>
     </div>

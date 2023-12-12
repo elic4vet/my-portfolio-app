@@ -3,7 +3,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar" id="home">
       {/* Top Navbar */}
       <nav className="navbar top-navbar">
         {/* Navbar content */}

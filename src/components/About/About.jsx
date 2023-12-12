@@ -213,6 +213,13 @@ const About = () => {
             </div>{" "}
             <br />
           </div>
+
+          <div className="up__arrow">
+            <a href="#home">
+              {" "}
+              Go to top <i class="fa fa-arrow-up"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>

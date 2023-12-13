@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import image1 from "./../../assets/images/addtocart.png";
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="card card1">
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={image1} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 1</h5>
             <p className="card-text">Description</p>
             <a href="#" className="btn btn-primary">

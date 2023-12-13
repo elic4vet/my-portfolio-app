@@ -19,6 +19,9 @@
   justify-content: center;
 }
 
+.row2 {
+  margin-top: 20px;
+}
 .title,
 .subtitle {
   text-align: center;
@@ -31,13 +34,17 @@
 }
 
 .card__img {
-  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 .card-img-top {
   border-radius: 10px 10px 0 0;
   width: 350px;
   height: 200px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {

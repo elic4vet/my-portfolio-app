@@ -1,6 +1,13 @@
 import React from "react";
 import "./Portfolio.css";
 import image1 from "./../../assets/images/addtocart.png";
+import image2 from "./../../assets/images/dictionary_app.png";
+import image3 from "./../../assets/images/weather1.png";
+import image4 from "./../../assets/images/Desktop-App.png";
+import image5 from "./../../assets/images/nft-preview-card .png";
+import image6 from "./../../assets/images/product-preview-screenshot eli.png";
+import image7 from "./../../assets/images/desktop_app1.png";
+import image8 from "./../../assets/images/Desktop-App1.png";
 
 const Portfolio = () => {
   return (
@@ -8,7 +15,7 @@ const Portfolio = () => {
       <h1 className="title">Portfolio</h1>
       <p className="subtitle">Here are some of my recent projects:</p>
 
-      <div className="row">
+      <div className="row row1">
         <div className="col-md-6">
           <div className="card card1">
             <img src={image1} className="card-img-top" alt="..." />
@@ -25,7 +32,7 @@ const Portfolio = () => {
 
         <div className="col-md-6">
           <div className="card card2">
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={image2} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
             <a href="#" className="btn btn-primary">
@@ -39,7 +46,7 @@ const Portfolio = () => {
 
         <div className="col-md-6">
           <div className="card card3">
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={image3} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
             <a href="#" className="btn btn-primary">
@@ -53,7 +60,64 @@ const Portfolio = () => {
 
         <div className="col-md-6">
           <div className="card card4">
-            <img src="..." className="card-img-top" alt="..." />
+            <img src={image4} className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="row row2">
+        <div className="col-md-6">
+          <div className="card card4">
+            <img src={image5} className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <div className="card card4">
+            <img src={image6} className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="card card4">
+            <img src={image7} className="card-img-top" alt="..." />
+            <h5 className="card-title">Project 2</h5>
+            <p className="card-text">Description</p>
+            <a href="#" className="btn btn-primary">
+              Live preview
+            </a>
+            <a href="#" className="btn btn-primary">
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <div className="card card4">
+            <img src={image8} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
             <a href="#" className="btn btn-primary">

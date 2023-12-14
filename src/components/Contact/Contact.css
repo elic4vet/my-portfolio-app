@@ -6,11 +6,21 @@
   border: 1px solid var(--color-bg-headline);
   margin-top: 60px;
 }
- 
+
 .contact_container p {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--card-tag-txt);
-} 
- 
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
+.socials a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}

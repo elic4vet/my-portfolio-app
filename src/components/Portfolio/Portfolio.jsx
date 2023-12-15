@@ -56,7 +56,10 @@ const Portfolio = () => {
             >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://github.com/elic4vet/react-weather-app"
+              className="btn btn-primary"
+            >
               View Code
             </a>
           </div>

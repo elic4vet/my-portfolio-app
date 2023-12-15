@@ -49,7 +49,11 @@ const Portfolio = () => {
             <img src={image3} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://jolly-snyder-21730a.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live preview
             </a>
             <a href="#" className="btn btn-primary">

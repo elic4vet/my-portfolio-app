@@ -35,10 +35,16 @@ const Portfolio = () => {
             <img src={image2} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://starlit-zabaione-17278b.netlify.app/"
+              className="btn btn-primary"
+            >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://github.com/elic4vet/dictionary-project"
+              className="btn btn-primary"
+            >
               View Code
             </a>
           </div>

@@ -24,12 +24,14 @@ const Portfolio = () => {
             <a
               href="https://famous-daffodil-e8cf06.netlify.app/"
               className="btn btn-primary"
+              target="_blank"
             >
               Live preview
             </a>
             <a
               href="https://github.com/elic4vet/Add_to_cart"
               className="btn btn-primary"
+              target="_blank"
             >
               View Code
             </a>
@@ -82,10 +84,16 @@ const Portfolio = () => {
             <img src={image4} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://results-summary23.netlify.app/"
+              className="btn btn-primary"
+            >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="https://github.com/elic4vet/results-component"
+              className="btn btn-primary"
+            >
               View Code
             </a>
           </div>

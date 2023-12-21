@@ -117,7 +117,11 @@ const Portfolio = () => {
             >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://github.com/elic4vet/nft-preview-card"
+              className="btn btn-primary"
+              target="_blank"
+            >
               View Code
             </a>
           </div>

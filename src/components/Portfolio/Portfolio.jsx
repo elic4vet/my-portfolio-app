@@ -110,7 +110,11 @@ const Portfolio = () => {
             <img src={image5} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://prismatic-syrniki-15a3cd.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live preview
             </a>
             <a href="#" className="btn btn-primary" target="_blank">

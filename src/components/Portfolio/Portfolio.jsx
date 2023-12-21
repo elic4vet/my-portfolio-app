@@ -132,10 +132,18 @@ const Portfolio = () => {
             <img src={image6} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://product-preview-23.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://github.com/elic4vet/product-preview"
+              className="btn btn-primary"
+              target="_blank"
+            >
               View Code
             </a>
           </div>
@@ -145,10 +153,18 @@ const Portfolio = () => {
             <img src={image7} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://fascinating-dusk-68f6ff.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://github.com/elic4vet/faq-card"
+              className="btn btn-primary"
+              target="_blank"
+            >
               View Code
             </a>
           </div>

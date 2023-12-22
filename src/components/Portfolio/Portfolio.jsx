@@ -175,10 +175,18 @@ const Portfolio = () => {
             <img src={image8} className="card-img-top" alt="..." />
             <h5 className="card-title">Project 2</h5>
             <p className="card-text">Description</p>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://illustrious-belekoy-855722.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live preview
             </a>
-            <a href="#" className="btn btn-primary" target="_blank">
+            <a
+              href="https://github.com/elic4vet/Stats_preview_card"
+              className="btn btn-primary"
+              target="_blank"
+            >
               View Code
             </a>
           </div>

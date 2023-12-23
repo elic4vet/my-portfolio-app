@@ -62,7 +62,13 @@
     margin: 0.5rem;
   }
   .card-img-top {
-    height: 200px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
   }
 }

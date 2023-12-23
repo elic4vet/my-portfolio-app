@@ -46,6 +46,7 @@ const Portfolio = () => {
             <a
               href="https://starlit-zabaione-17278b.netlify.app/"
               className="btn btn-primary"
+              target="_blank"
             >
               Live preview
             </a>

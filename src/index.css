@@ -101,6 +101,7 @@ a:hover {
   border-radius: 0.4rem;
   cursor: pointer;
   transition: var(--transition);
+  gap: 0.5rem;
 }
 
 .btn:hover {

@@ -118,6 +118,7 @@ img {
   object-fit: cover;
   max-width: 260px;
   background-color: var(--card-bg);
+  border-radius: 0.4rem;
 }
 
 /* ======= Media Queries "M" Devices ======= */

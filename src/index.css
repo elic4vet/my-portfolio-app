@@ -112,6 +112,8 @@ a:hover {
 .btn-primary {
   background-color: var(--card-button);
   color: var(--card-tag-txt);
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 img {

@@ -122,6 +122,7 @@ img {
   max-width: 260px;
   background-color: var(--card-bg);
   border-radius: 0.4rem;
+  transition: var(--transition);
 }
 
 /* ======= Media Queries "M" Devices ======= */

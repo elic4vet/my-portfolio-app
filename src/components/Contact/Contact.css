@@ -25,3 +25,8 @@
   margin: 0 10px;
   font-size: 1.5rem;
 }
+
+.fa-envelope:hover {
+  color: var(--card-highlight);
+  transition: var(--transition);
+}

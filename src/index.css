@@ -109,6 +109,7 @@ a:hover {
 .btn:hover {
   background-color: var(--card-button-hover);
   color: var(--card-tag-txt);
+  transition: var(--transition);
 }
 
 .btn-primary {

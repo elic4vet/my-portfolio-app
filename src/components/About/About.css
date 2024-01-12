@@ -75,6 +75,7 @@
   color: var(--card-tag-txt);
   border: 1px solid var(--card-button);
   border-radius: 1rem;
+  padding: 2rem;
 }
 .skills__container,
 .skills__container ul {
@@ -102,6 +103,7 @@
 .icon {
   font-size: 4rem;
 }
+
 /* ======= Media Queries "M" Devices ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

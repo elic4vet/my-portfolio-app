@@ -27,6 +27,7 @@
   line-height: 1.5;
   margin-bottom: 1.5rem;
   color: var(--card-tag-txt);
+  border: 1px solid var(--card-button);
 }
 
 .about__card {

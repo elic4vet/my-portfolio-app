@@ -6,7 +6,6 @@
   border: 1px solid var(--color-bg-headline);
   margin-top: 60px;
   padding: 20px;
-  transition: var(--transition);
 }
 
 .contact_container p {
@@ -29,5 +28,4 @@
 
 .fa-envelope:hover {
   color: var(--card-highlight);
-  transition: var(--transition);
 }

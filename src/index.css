@@ -141,6 +141,10 @@ img {
   img {
     max-width: 150px;
   }
+
+  .logo {
+    display: none;
+  }
 }
 
 /* ======= Media Queries "S" Devices ======= */

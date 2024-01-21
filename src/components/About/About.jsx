@@ -26,9 +26,9 @@ const About = () => {
 
           <div className="about__me-text">
             <p className="text">
-              I am a full stack web developer with a passion for creating
-              beautiful, responsive, and functional websites. I have a
-              background in graphic design and a passion for learning new
+              I am a Frontend Developer with a passion for creating beautiful,
+              responsive, and functional websites. I have a background in
+              pharmaceutical logistics and a passion for learning new
               technologies. I am a team player and I am always looking for ways
               to improve my skills and help others.{" "}
             </p>
@@ -39,7 +39,7 @@ const About = () => {
             <br />
             <div className="CTA">
               {" "}
-              Download my resume here
+              Download my resumé here
               <a
                 href="https://docs.google.com/document/d/1FFE2gL9lI_woI-FL1Z3Jtqzj9Eav8GmFjrgFJoFl8-M/edit?usp=sharing"
                 target="_blank"

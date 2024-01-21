@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact_container" id="contact">
       <h1>Contact</h1>
- 
+
       <p>
         Email:{" "}
         <a
@@ -13,19 +13,19 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
- <i class="fa fa-envelope"></i> </a>
+          <i class="fa fa-envelope"></i>{" "}
+        </a>
       </p>
 
- <div className="socials">
-      <a
-          href="https://www.linkedin.com/in/elisabeth-erkekoglou/"
+      <div className="socials">
+        <a
+          href="https://www.linkedin.com/in/eerkekoglou/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i class="fab fa-linkedin"></i>
         </a>
-        <a
-        href="https://github.com/elic4vet">
+        <a href="https://github.com/elic4vet">
           <i class="fab fa-github"></i>
         </a>
         <a
@@ -35,14 +35,10 @@ const Contact = () => {
         >
           <i class="fab fa-instagram"></i>
         </a>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-facebook"></i>
         </a>
-        </div>
+      </div>
     </div>
   );
 };

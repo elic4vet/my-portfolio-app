@@ -125,6 +125,7 @@ img {
   max-width: 260px;
   background-color: var(--card-bg);
   border-radius: 0.4rem;
+  text-align: center;
 }
 
 /* ======= Media Queries "M" Devices ======= */

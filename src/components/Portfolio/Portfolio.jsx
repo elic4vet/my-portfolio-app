@@ -1,4 +1,3 @@
-import React from "react";
 import "./Portfolio.css";
 import image1 from "./../../assets/images/addtocart.png";
 import image2 from "./../../assets/images/dictionary_app.png";
@@ -25,6 +24,7 @@ const Portfolio = () => {
               href="https://famous-daffodil-e8cf06.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -32,6 +32,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/Add_to_cart"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -47,6 +48,7 @@ const Portfolio = () => {
               href="https://starlit-zabaione-17278b.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -54,6 +56,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/dictionary-project"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -69,6 +72,7 @@ const Portfolio = () => {
               href="https://jolly-snyder-21730a.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -76,6 +80,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/react-weather-app"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -91,6 +96,7 @@ const Portfolio = () => {
               href="https://results-summary23.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -98,6 +104,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/results-component"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -115,6 +122,7 @@ const Portfolio = () => {
               href="https://prismatic-syrniki-15a3cd.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -122,6 +130,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/nft-preview-card"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -137,6 +146,7 @@ const Portfolio = () => {
               href="https://product-preview-23.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -144,6 +154,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/product-preview"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -158,6 +169,7 @@ const Portfolio = () => {
               href="https://fascinating-dusk-68f6ff.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -165,6 +177,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/faq-card"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>
@@ -180,6 +193,7 @@ const Portfolio = () => {
               href="https://illustrious-belekoy-855722.netlify.app/"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Live preview
             </a>
@@ -187,6 +201,7 @@ const Portfolio = () => {
               href="https://github.com/elic4vet/Stats_preview_card"
               className="btn btn-primary"
               target="_blank"
+              rel="noreferrer"
             >
               View Code
             </a>

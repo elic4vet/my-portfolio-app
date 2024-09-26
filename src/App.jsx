@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Snowfall from "react-snowfall";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";

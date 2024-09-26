@@ -1,4 +1,3 @@
-import React from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -37,20 +36,20 @@ const Sidebar = () => {
               <li>
                 <a href="#portfolio">
                   {" "}
-                  <i class="fa fa-briefcase"></i> Portfolio{" "}
+                  <i className="fa fa-briefcase"></i> Portfolio{" "}
                 </a>
               </li>
 
               <li>
                 <a href="#contact">
                   {" "}
-                  <i class="fa fa-envelope"></i> Contact{" "}
+                  <i className="fa fa-envelope"></i> Contact{" "}
                 </a>
               </li>
 
               <li>
-                <a href="https://github.com/elic4vet" target="_blank">
-                  <i class="fa fa-github"></i> Github
+                <a href="https://github.com/elic4vet" target="_blank" rel="noreferrer">
+                  <i className="fa fa-github"></i> Github
                 </a>
               </li>
 
@@ -58,8 +57,9 @@ const Sidebar = () => {
                 <a
                   href="https://www.linkedin.com/in/eerkekoglou/"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  <i class="fa fa-linkedin"></i> LinkedIn
+                  <i className="fa fa-linkedin"></i> LinkedIn
                 </a>
               </li>
             </ul>

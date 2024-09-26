@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -43,12 +42,13 @@ const About = () => {
               <a
                 href="https://docs.google.com/document/d/1FFE2gL9lI_woI-FL1Z3Jtqzj9Eav8GmFjrgFJoFl8-M/edit?usp=sharing"
                 target="_blank"
-              >
+                rel="noreferrer" 
+                >
                 <FaCloudDownloadAlt className="icon" />
               </a>
             </div>
             <a href="#contact" className="btn btn-primary">
-              Let's talk
+            <p>{`Let's talk`}</p>
             </a>
           </div>
 
@@ -217,7 +217,7 @@ const About = () => {
           <div className="up__arrow">
             <a href="#home">
               {" "}
-              Go to top <i class="fa fa-arrow-up"></i>
+              Go to top <i className="fa fa-arrow-up"></i>
             </a>
           </div>
         </div>

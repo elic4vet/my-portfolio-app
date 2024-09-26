@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
@@ -13,7 +12,7 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fa fa-envelope"></i>{" "}
+          <i className="fa fa-envelope"></i>{" "}
         </a>
       </p>
 
@@ -23,20 +22,20 @@ const Contact = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/elic4vet">
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.instagram.com/elisa.codes23/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-facebook"></i>
+          <i className="fab fa-facebook"></i>
         </a>
       </div>
     </div>
